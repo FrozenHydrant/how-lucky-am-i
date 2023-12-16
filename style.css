@@ -1,0 +1,15 @@
+.inputs{
+    height: 50%;
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+
+.outputs{
+    height: 50%;
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}

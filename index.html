@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>How Lucky Am I?</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+</head>
+
+<body onload="onLoad()">
+    <div>
+<h1>How Lucky Am I?</h1>
+    </div>
+    <div class="inputs">
+        <p>Amount of boxes opened:</p>
+        <input id="box-count" oninput="generateResult()"></input>
+        <p>Percentage Chance of Drop:</p>
+        <input id="drop-chance" oninput="generateResult()"></input>
+        <p>Amount Of Drops Obtained:</p>
+        <input id="drop-count" oninput="generateResult()"></input>
+    </div>
+    <div class="outputs">
+        <p id="output-message"></p>
+    </div>
+</body>
+
+</html>
