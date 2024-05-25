@@ -9,19 +9,24 @@
 </head>
 
 <body onload="onLoad()">
-    <div>
-<h1>How Lucky Am I?</h1>
+    <div class="container_title">
+        <div class="title">
+            <h1>How Lucky Am I?</h1>
+            <h5>What's the chance of that happening?? Well, let's find out.</h5>
+        </div>
     </div>
-    <div class="inputs">
-        <p>Amount of boxes opened:</p>
-        <input id="box-count" oninput="generateResult()"></input>
-        <p>Percentage Chance of Drop:</p>
-        <input id="drop-chance" oninput="generateResult()"></input>
-        <p>Amount Of Drops Obtained:</p>
-        <input id="drop-count" oninput="generateResult()"></input>
-    </div>
-    <div class="outputs">
-        <p id="output-message"></p>
+    <div class="container_in_out">
+        <div class="in">
+            <p>Boxes Opened:</p>
+            <input id="box-count" oninput="generateResult()"></input>
+            <p>Percentage Chance of Drop:</p>
+            <input id="drop-chance" oninput="generateResult()"></input>
+            <p>Amount Of Drops Obtained:</p>
+            <input id="drop-count" oninput="generateResult()"></input>
+        </div>
+        <div class="out">
+            <p id="output-message"></p>
+        </div>
     </div>
 </body>
 

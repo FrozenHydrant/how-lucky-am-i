@@ -1,15 +1,34 @@
-.inputs{
-    height: 50%;
-    width: 20%;
-    position: absolute;
-    top: 10%;
-    left: 0%;
+.in{
+    display: inline-block;
+    margin-left: 30%;
+    max-width: 20%;
+    position: relative;
+    font-family: monospace;
+    font-size: small;
 }
 
-.outputs{
-    height: 50%;
-    width: 25%;
-    position: absolute;
-    top: 10%;
-    left: 20%;
+.out{
+    display: inline-block;
+    margin-left: 10%;
+    max-width: 20%;
+    position: relative;
+    font-family: monospace;
+    font-size: medium;
+}
+
+.container_in_out{
+    height: 35%;
+    position: static;
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    font-family: monospace;
+    font-size: large;
+}
+
+.container_title{
+    margin-top: 15%;
+    position: static;
 }
